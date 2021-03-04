@@ -1,0 +1,65 @@
+@import './../../../css/var';
+
+.short_info_before_after {
+    display: block;
+    padding-top: 3px;
+}
+
+%big-font,
+.big_font {
+    font-size: 60px;
+    line-height: 1;
+    margin: 0;
+}
+
+.sync_info {
+    @extend %big-font;
+
+    background-color: $positive-color;
+    border-radius: 36px;
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+    height: 72px;
+    left: -$outer-padding;
+    padding: 6px $outer-padding 0;
+    position: relative;
+    vertical-align: text-top;
+}
+
+.description {
+    clear: both;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 40px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.main_info {
+    @extend %big-font;
+
+    padding-bottom: 4px;
+}
+
+.arrow_right {
+    height: 37px;
+    padding: 0 12px;
+    width: 44px;
+}
+
+.arrow_down {
+    display: block;
+    height: 45px;
+    margin: 38px 0 8px;
+    width: 45px;
+}
+
+/*
+.see_place_description {
+    font-size: 14px;
+    margin: 0;
+}
+*/

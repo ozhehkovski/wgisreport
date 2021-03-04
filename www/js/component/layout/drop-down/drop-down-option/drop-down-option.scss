@@ -1,0 +1,22 @@
+.drop_down_option {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.image {
+    display: block;
+    height: 24px;
+    margin-right: 12px;
+    width: 24px;
+}
+
+.title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}

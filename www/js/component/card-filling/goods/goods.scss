@@ -1,0 +1,49 @@
+@import './../../../../css/var';
+@import './../../../../css/service';
+
+.goods {
+    display: block;
+    padding: 14px 0 0;
+}
+
+.title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.item {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 2px;
+}
+
+.item_cost {
+    color: $secondary-font-color;
+    font-size: 18px;
+    margin: 0;
+}
+
+.item_space {
+    border-bottom: 1px dotted $secondary-font-color;
+    flex-grow: 1;
+    height: 17px;
+    min-width: 40px;
+}
+
+.item_name {
+    @extend %ellipsis;
+
+    color: $secondary-font-color;
+    font-size: 18px;
+    margin: 0;
+    //text-transform: lowercase;
+    //
+    //&:first-letter {
+    //    text-transform: uppercase;
+    //}
+}

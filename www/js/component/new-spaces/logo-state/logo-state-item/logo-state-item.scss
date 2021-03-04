@@ -1,0 +1,47 @@
+/* stylelint-disable selector-combinator-disallowed-list */
+
+$cos30deg: 0.86602540378;
+$sin30deg: 0.5;
+
+.logo_state_item {
+    height: 0;
+    margin-bottom: calc(-100% / 9 / #{$cos30deg} * #{$sin30deg} * 0.5);
+    padding-bottom: calc((100% / 9) / #{$cos30deg});
+    position: relative;
+    width: calc(100% / 9);
+
+    &:nth-child(17n + 1) {
+        margin-left: calc(100% / 18);
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.image {
+    background-color: #ccc;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: block;
+    filter: grayscale(1);
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: opacity 0.3s linear, filter 0.3s linear;
+    width: 100%;
+
+    &.image_active,
+    &:hover {
+        filter: none;
+        opacity: 1;
+    }
+}
+
+.container {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

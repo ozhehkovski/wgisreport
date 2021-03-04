@@ -1,0 +1,32 @@
+@import './../../../css/var';
+
+.head_line {
+    padding: 45px $outer-padding * 3 83px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0;
+    padding-bottom: 31px;
+}
+
+.sub_title {
+    color: $secondary-font-color;
+    font-size: 19px;
+    margin: 0;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .head_line {
+        padding: $outer-padding $outer-padding $outer-padding * 2;
+    }
+}
+
+@media screen and (max-width: $tablet-width) {
+    .title {
+        font-size: 36px;
+        padding-bottom: $outer-padding;
+    }
+}

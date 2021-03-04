@@ -1,0 +1,29 @@
+@import './../../../../../css/service';
+
+.social_link {
+    @extend %link;
+
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 0 12px 8px 0;
+    padding: 0;
+}
+
+.text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.image {
+    display: block;
+    flex-shrink: 0;
+    height: 32px;
+    margin-right: 3px;
+    width: 32px;
+}

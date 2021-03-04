@@ -1,0 +1,35 @@
+@import './../../../../css/var';
+
+.info_as_check_item {
+    border-bottom: 1px solid $main-font-color;
+    display: block;
+    margin-right: $outer-padding * 2;
+    position: relative;
+    width: calc((100% - #{$outer-padding * 4}) / 3);
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+.text {
+    font-size: 18px;
+    margin: 0 35px 0 0;
+    padding: 15px 0;
+}
+
+.tick {
+    display: block;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 14px;
+    width: 25px;
+}
+
+@media screen and (max-width: $tablet-width) {
+    .info_as_check_item {
+        margin-right: 0;
+        width: 100%;
+    }
+}

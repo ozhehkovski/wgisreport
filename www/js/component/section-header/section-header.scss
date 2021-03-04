@@ -1,0 +1,33 @@
+@import './../../../css/var';
+
+.section_header {
+    display: block;
+    padding: 0 $outer-padding * 3 $outer-padding * 2;
+}
+
+.section_title {
+    display: block;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.section_sub_title {
+    display: block;
+    font-size: 18px;
+    margin: 0;
+    max-width: 60ch;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .section_header {
+        padding: 0 $outer-padding $outer-padding;
+    }
+}
+
+@media screen and (max-width: $tablet-width) {
+    .section_title {
+        font-size: 28px;
+    }
+}

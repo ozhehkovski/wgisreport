@@ -1,0 +1,49 @@
+@import './../../../css/var';
+
+.review_by_place {
+    display: block;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 24px;
+}
+
+.info_wrapper {
+    display: block;
+}
+
+.info_item {
+    align-items: center;
+    border-top: 1px solid #8b8b8b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: flex-start;
+    min-height: 56px;
+    padding: 5px 0;
+}
+
+.info_image {
+    border-radius: 4px;
+    display: block;
+    height: 24px;
+    margin-right: 13px;
+    object-fit: contain;
+    width: 24px;
+}
+
+.info_title {
+    display: block;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.info_count {
+    display: block;
+    flex-shrink: 0;
+    margin: 0;
+    padding-left: 10px;
+}

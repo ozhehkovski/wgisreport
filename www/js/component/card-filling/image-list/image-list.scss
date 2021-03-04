@@ -1,0 +1,21 @@
+.image_list {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 0 8px;
+}
+
+.item {
+    display: block;
+    height: 88px;
+    width: calc((100% - 16px) / 5);
+}
+
+.image {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}

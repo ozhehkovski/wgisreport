@@ -1,0 +1,67 @@
+@import './../../../css/var';
+
+.review_dynamic {
+    display: block;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+.dynamic {
+    display: block;
+}
+
+.legend_wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+}
+
+%legend-item,
+.legend_item {
+    align-items: flex-start;
+    color: $secondary-font-color;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: flex-start;
+    margin: 0 14px 0 0;
+
+    &:before {
+        background-color: $main-font-color;
+        border-radius: 4px;
+        content: '';
+        display: inline-block;
+        height: 7px;
+        margin-right: 4px;
+        position: relative;
+        top: 7px;
+        width: 7px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.legend_item__full {
+    @extend %legend-item;
+
+    &:before {
+        background-color: #000;
+    }
+}
+
+.legend_item__with_answer {
+    @extend %legend-item;
+
+    &:before {
+        background-color: #17a31c;
+    }
+}

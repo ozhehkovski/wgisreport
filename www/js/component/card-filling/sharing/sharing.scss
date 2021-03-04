@@ -1,0 +1,24 @@
+@import './../../../../css/var';
+
+.sharing {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 16px 0 8px 45px;
+}
+
+@media screen and (max-width: $tablet-width) {
+    .sharing {
+        flex-direction: column;
+    }
+
+    .button {
+        margin-bottom: 8px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

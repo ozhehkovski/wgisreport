@@ -1,0 +1,37 @@
+@import '../../../../css/var';
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    padding: $outer-padding * 1.5 $outer-padding * 2;
+}
+
+//style={{width: part / 0.12 + '%'}}
+
+@for $i from 1 through 12 {
+    .width_#{$i} {
+        width: #{$i / 0.12 + '%'};
+    }
+}
+
+.container_padding {
+    box-sizing: border-box;
+    padding: $outer-padding;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .container {
+        padding: $outer-padding * 1.5 $outer-padding * 1.5;
+    }
+}
+
+@media screen and (max-width: $tablet-width) {
+    @for $i from 1 through 12 {
+        .width_#{$i} {
+            width: 100%;
+        }
+    }
+}

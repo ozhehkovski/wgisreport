@@ -1,0 +1,83 @@
+@import './../../../css/var';
+
+.card_filling {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $outer-padding;
+}
+
+%card-wrapper,
+.card_wrapper {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc(50% - #{$outer-padding});
+}
+
+.card_wrapper__before {
+    @extend %card-wrapper;
+
+    justify-content: space-between;
+}
+
+.review_counter {
+    background-color: $positive-color;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 4px 6px;
+}
+
+.content_wrapper {
+    background-color: #fff;
+    display: block;
+    padding: $outer-padding * 1 $outer-padding * 2;
+
+    &.content_wrapper__last {
+        border-radius: 0 0 8px 8px;
+    }
+
+    &:empty {
+        display: none;
+    }
+}
+
+.external_link {
+    color: inherit;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.rating_card_wrapper {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .card_filling {
+        flex-direction: column;
+    }
+
+    .card_wrapper {
+        margin-bottom: $outer-padding;
+        width: 100%;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .rating_card_wrapper {
+        padding-top: $outer-padding;
+    }
+}

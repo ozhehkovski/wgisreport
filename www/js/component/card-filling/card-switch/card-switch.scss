@@ -1,0 +1,36 @@
+@import './../../../../css/var';
+
+.card_switch {
+    background-color: #fff;
+    border-bottom: 1px solid $secondary-font-color;
+    overflow-x: auto;
+    padding: 0 $outer-padding * 2;
+}
+
+.card_switch__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tab {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1;
+    margin: 0 25px 0 0;
+    min-height: 55px;
+    padding: 9px 0 4px;
+    text-align: center;
+
+    &.active {
+        border-bottom-color: $positive-color;
+    }
+}

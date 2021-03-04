@@ -1,0 +1,19 @@
+POST https://api.rocketdata.io/reports/2gis/
+Content-Type: application/json
+Authorization: Token 69a5d364294d452165b29805115a8b3a59e84314
+
+{
+  "company_id": 139345,
+  "language": "ru",
+  "ccl_date": "2020-11-01T00:00",
+  "report_date_range": {
+      "from_dt": "2020-09-01T00:00",
+      "to_dt": "2020-09-30T00:00"
+  },
+  "compare_date_range": {
+      "from_dt": "2019-07-01T00:00",
+      "to_dt": "2019-07-30T00:00"
+  }
+}
+
+###

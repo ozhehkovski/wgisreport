@@ -1,0 +1,60 @@
+@import '../../../css/var';
+
+.info_by_place {
+    display: block;
+}
+
+.select_place_wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.select_place_drop_down {
+    display: block;
+    flex-grow: 1;
+    max-width: 345px;
+}
+
+.select_place_title {
+    display: block;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 35px 0 0;
+    padding-top: 14px;
+}
+
+.card_list_wrapper {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: -25px;
+    padding: 52px 0 0;
+}
+
+.card {
+    margin-bottom: 36px;
+    width: 50%;
+}
+
+@media screen and (max-width: $tablet-width) {
+    .select_place_wrapper {
+        flex-direction: column;
+    }
+
+    .select_place_title {
+        padding-bottom: 8px;
+    }
+
+    .select_place_drop_down {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

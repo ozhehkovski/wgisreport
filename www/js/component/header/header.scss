@@ -1,0 +1,48 @@
+@import './../../../css/var';
+
+.header {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 35px $outer-padding * 3;
+}
+
+.logo_link {
+    display: block;
+    margin: 1px 16px 1px 0;
+    //padding-top: 1px;
+}
+
+.logo_image {
+    display: block;
+    max-height: 54px;
+    //width: 179px;
+    max-width: 100%;
+}
+
+.button {
+    align-items: center;
+    border: 1px solid $button-font-color;
+    border-radius: $main-border-radius;
+    color: $button-font-color;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    letter-spacing: 0.7px;
+    margin: 5px 0 0;
+    padding: 11px 16px 10px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: $desktop-width) {
+    .header {
+        padding: $outer-padding;
+    }
+}

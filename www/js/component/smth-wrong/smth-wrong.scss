@@ -1,0 +1,64 @@
+@import './../../../css/var';
+
+.smth_wrong {
+    background-color: #fff;
+    border-radius: 16px;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 432px;
+    padding: 16px 16px 50px;
+    position: relative;
+}
+
+.image {
+    display: block;
+    position: absolute;
+    right: 51px;
+    top: 37px;
+    width: 453px;
+}
+
+.text_wrapper {
+    display: block;
+    flex-grow: 1;
+    left: 50px;
+    max-width: 510px;
+    position: absolute;
+    top: 167px;
+}
+
+.main_header {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.main_text {
+    font-size: 17px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .image {
+        box-sizing: border-box;
+        margin: 0 auto 20px;
+        max-width: 100%;
+        padding-right: 60px;
+        position: static;
+        width: 513px;
+    }
+
+    .text_wrapper {
+        margin: 0 auto;
+        position: static;
+        text-align: center;
+    }
+
+    .smth_wrong {
+        margin: 0 10px 10px;
+        min-height: auto;
+    }
+}

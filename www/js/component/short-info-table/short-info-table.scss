@@ -1,0 +1,39 @@
+@import './../../../css/var';
+
+.short_info_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 18px;
+    margin: 0;
+    width: 100%;
+    word-break: break-word;
+
+    tr {
+        border-bottom: 1px solid $main-font-color;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    td {
+        padding: 11px 0;
+        vertical-align: top;
+        width: 50%;
+    }
+}
+
+.text_paragraph {
+    margin: 0;
+    padding-bottom: 16px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.day_of_week {
+    color: $secondary-font-color;
+    display: inline-block;
+    width: 35px;
+}

@@ -1,0 +1,10 @@
+@import './../../../css/var';
+
+.info_as_check {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: $outer-padding;
+}

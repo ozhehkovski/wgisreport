@@ -1,0 +1,48 @@
+@import '../../../css/var';
+
+.card {
+    display: block;
+}
+
+.value {
+    font-size: 60px;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.description {
+    color: $secondary-font-color;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.percent {
+    background-color: $positive-color;
+    border-radius: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 2px 8px 0 7px;
+}
+
+.percent_arrow {
+    height: 14px;
+    padding: 0 7px 0 0;
+    position: relative;
+    top: 1px;
+    width: 12px;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .value {
+        font-size: 42px;
+    }
+}

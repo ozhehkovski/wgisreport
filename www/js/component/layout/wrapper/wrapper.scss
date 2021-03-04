@@ -1,0 +1,15 @@
+@import './../../../../css/var';
+
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: $tablet-width) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
