@@ -26,13 +26,6 @@ depcheck
 ```bash
 $ [sudo] npm i -g depcheck
 $ depcheck
-```
-
-### CI/CD:
-```bash
-$ git tag 1.0.3 // 1.0.3 - next version
-$ git push origin --tags // push tags to branch
-```
 
 ### Build app:
 ```bash
@@ -92,16 +85,3 @@ $ docker stop <CONTAINER ID>
 Remove image
 ```
 $ docker image rm -f <image id>
-```
-
-
-### Update
-
-```
-$ ssh root@135.181.110.220
-cd 2gis-report/
-git pull
-cd ../
-cp -R 2gis-report/ /www/
-sudo systemctl restart nginx
-```
