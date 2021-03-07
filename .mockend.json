@@ -1,0 +1,10 @@
+{
+    "Reports": {
+      "id": "string", 
+      "title": "string",
+      "views": "int",
+      "published": "boolean",
+      "createdAt": "date",
+      "comments": "Comment[]"
+    }
+  }
