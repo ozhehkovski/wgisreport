@@ -1,11 +1,428 @@
 {
-  "posts": [
+  "reports": [
     {
-      "id": 1,
-      "title": "hello"
+      "uuid": "2dbde50f-0804-4f94-8c0a-28dec3f10476",
+      "company_name": "Магнит",
+      "country_code": "ru",
+      "company_size": null,
+      "address": "Новосибирск, Вокзальная магистраль, 1",
+      "created": "2020-12-21T05:00:21.050603Z",
+      "phones": [
+        "8‒800‒200‒90‒02"
+      ],
+      "working_hours": {},
+      "website": "http://magnit.ru",
+      "catalogs": [
+        {
+          "status": "completed",
+          "catalog": {
+            "id": 2,
+            "name": "2gis",
+            "description": "2gis - популярный в России справочник компаний, известный своей точностью данных. Аудитория сервиса превышает 44 миллиона пользователей в месяц.",
+            "icon": "",
+            "image": "https://assets.rocketdata.io/media/cache/b4/cb/b4cb5e6f295c09bd3d987e48d5407d52.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/fc/ab/fcab83de34b71a85e16dd655391345bd.png",
+            "traffic": 44000000,
+            "weight": -194
+          },
+          "chained": [
+            {
+              "id": 52,
+              "name": "Flamp.ru",
+              "description": "Flamp. ru -  онлайн- сервис с отзывами о компаниях и организациях, с ежемесячной аудиторией более 5.5 миллионов пользователей.",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/20/83/208354c1a42e649babdae97f766c0f6d.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/c7/67/c76778570f1a881f65524f0df7f3c535.png",
+              "traffic": 5500000,
+              "weight": -100
+            },
+            {
+              "id": 81,
+              "name": "Rambler организации",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/76/d9/76d93bb61118c7ec624d5ff3da68833b.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/e8/df/e8df6f8ae566f784bfac04a2898a8035.png",
+              "traffic": 0,
+              "weight": 0
+            }
+          ],
+          "result": {
+            "address": "Вокзальная магистраль, 1",
+            "name": "Магнит",
+            "phones": [
+              "+7 800 200-90-02"
+            ],
+            "working_hours": {
+              "1": [
+                "00:00-24:00"
+              ],
+              "2": [
+                "00:00-24:00"
+              ],
+              "3": [
+                "00:00-24:00"
+              ],
+              "4": [
+                "00:00-24:00"
+              ],
+              "5": [
+                "00:00-24:00"
+              ],
+              "6": [
+                "00:00-24:00"
+              ],
+              "7": [
+                "00:00-24:00"
+              ]
+            },
+            "website": "http://magnit.ru",
+            "rating": 2.5,
+            "reviews": 29,
+            "errors": [],
+            "url": "https://2gis.ru/firm/70000001036197235"
+          }
+        },
+        {
+          "status": "completed",
+          "catalog": {
+            "id": 11,
+            "name": "Google My Business",
+            "description": "Google My Business –  сервис компании Google, который объединяет сервисы, предоставляющие возможность размещать всю необходимую информацию о вашей компании и контролировать ее.  Наиболее важное преимущество – расширенная выдача карточки компании, при брендовом запросе, что помогает продвигать компанию в результатах поиска.",
+            "icon": "google",
+            "image": "https://assets.rocketdata.io/media/cache/3c/72/3c72017946e9476c631a7fa1c0054f44.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/f7/a5/f7a57ae17adcbcfb654aa1dfa56850d0.png",
+            "traffic": 0,
+            "weight": -185
+          },
+          "chained": [
+            {
+              "id": 94,
+              "name": "Gett Taxi",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/b5/43/b543eb296aeb4eac85e7b842fcb8e799.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/98/fe/98fe4053beb06ab71444643687a4a8c3.png",
+              "traffic": 0,
+              "weight": 0
+            },
+            {
+              "id": 82,
+              "name": "Google Assistant",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/a1/b0/a1b0542195a305849842582ad81b2038.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/93/1e/931e691d6025ff21272e1247cc2caba2.png",
+              "traffic": 0,
+              "weight": 0
+            },
+            {
+              "id": 60,
+              "name": "Google maps",
+              "description": "Google maps -   самые популярные карты для мобильных телефонов в мире. Количество скачиваний только приложения в Play Market - более 1 миллиарда.",
+              "icon": "google_maps",
+              "image": "https://assets.rocketdata.io/media/cache/96/69/9669a737a1a87697ea11e3cd3d7e0a86.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/20/4d/204d66f28f4e4b9c221edcc6b098f2f1.png",
+              "traffic": 1000000000,
+              "weight": -200
+            },
+            {
+              "id": 47,
+              "name": "Waze",
+              "description": "Waze - навигационное приложение для мобильных устройств, позволяющее отслеживать ситуацию на дорогах в режиме реального времени, прокладывать оптимальные маршруты, узнавать о расположении компаний. Аудитория сервиса превышает 100 миллионов пользователей.",
+              "icon": "waze",
+              "image": "https://assets.rocketdata.io/media/cache/b8/e4/b8e46db7c9a9808dda5daae91fcf2fae.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/bc/3e/bc3ee7d0790c69212cd224395330d627.png",
+              "traffic": 100000000,
+              "weight": -182
+            },
+            {
+              "id": 84,
+              "name": "Wheely",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/78/59/7859c71269f75226221a618f2c7c9005.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/f3/9a/f39a679086c1da4efc5c1c58f64db78a.png",
+              "traffic": 0,
+              "weight": 0
+            }
+          ],
+          "result": {
+            "address": "ул. Челюскинцев, 14/1, Новосибирск",
+            "name": "Магнит Косметик",
+            "phones": [
+              "+7 800 200-90-02"
+            ],
+            "working_hours": {
+              "1": [
+                "10:00-21:30"
+              ],
+              "2": [
+                "10:00-21:30"
+              ],
+              "3": [
+                "10:00-21:30"
+              ],
+              "4": [
+                "10:00-21:30"
+              ],
+              "5": [
+                "10:00-21:30"
+              ],
+              "6": [
+                "10:00-21:30"
+              ],
+              "7": [
+                "10:00-21:30"
+              ]
+            },
+            "website": "http://magnit-info.ru",
+            "rating": 3.9,
+            "reviews": 354,
+            "errors": [
+              "formatted_address",
+              "website"
+            ],
+            "url": "https://maps.google.com/?cid=3033961508445580938"
+          }
+        },
+        {
+          "status": "error",
+          "catalog": {
+            "id": 12,
+            "name": "Yandex Карты",
+            "description": "Яндекс.Карты — поисково-информационный картографический сервис, который очень популярен в России. Аудитория сервиса составляет более 46 миллионов пользователей.",
+            "icon": "yandex_maps",
+            "image": "https://assets.rocketdata.io/media/cache/f8/2a/f82a4dc298f2b7c2e00c66893d07a7ff.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/cb/05/cb05cd766a0dff5dbf4f5cb23b5bbc70.png",
+            "traffic": 46000000,
+            "weight": -199
+          },
+          "chained": [
+            {
+              "id": 85,
+              "name": "Алиса",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/b0/7d/b07dcaab8d416cf00448207d12184123.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/e2/f3/e2f355b3791d084af4ff6ff59a17915b.png",
+              "traffic": 0,
+              "weight": 0
+            },
+            {
+              "id": 71,
+              "name": "Uber",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/ce/07/ce07e4e6f8f8e4e67dbc56c91a57fbce.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/31/14/3114d7542c82dd840e804a47d96c4411.png",
+              "traffic": 75000000,
+              "weight": -93
+            },
+            {
+              "id": 86,
+              "name": "Ситимобил",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/3d/04/3d046e44dafaa81349ae67c97b9e36e6.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/21/d7/21d7d27d4d19dcb44a190e94123196fa.png",
+              "traffic": 0,
+              "weight": 0
+            },
+            {
+              "id": 53,
+              "name": "Яндекс Навигатор",
+              "description": "Яндекс.Навигатор - один из самых популярных приложений для телефонов в России. Им пользуется более 50 миллионов пользователей.",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/1f/25/1f25ab02a55865c389496000a3f6442c.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/8b/c5/8bc55839eaad99ddc26406fca7c348a7.png",
+              "traffic": 50000000,
+              "weight": -193
+            },
+            {
+              "id": 80,
+              "name": "Яндекс Go",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/7d/09/7d09181dc68e4688b8171f1508bf25e0.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/c3/0d/c30d6ed5e737e549d2f945dd2c60bd62.png",
+              "traffic": 0,
+              "weight": 0
+            }
+          ],
+          "result": null
+        },
+        {
+          "status": "completed",
+          "catalog": {
+            "id": 26,
+            "name": "OpenStreetMap",
+            "description": "OpenStreetMap  - открытые карты, которыми пользуются более ста миллионов пользователей.  Сервис предоставляет  картографические данные для тысяч сайтов, мобильных приложений и устройств.",
+            "icon": "",
+            "image": "https://assets.rocketdata.io/media/cache/93/41/9341f2ffe795d3807cf7617a35df252c.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/37/8a/378aa1e916f041e15a52ffe6c8348f9c.png",
+            "traffic": 100000000,
+            "weight": -186
+          },
+          "chained": [
+            {
+              "id": 59,
+              "name": "CityMaps2Go",
+              "description": "Сitymaps2go -  популярное оффлайн тревел-приложение для телефона, с аудиторией более 1 миллиона пользователей.",
+              "icon": "citymaps2go",
+              "image": "https://assets.rocketdata.io/media/cache/c6/74/c6741b1567a54411b3c8377ea8a74206.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/24/ec/24ecad826ef0c94db511b7faa6a13b68.png",
+              "traffic": 1000000,
+              "weight": -90
+            },
+            {
+              "id": 58,
+              "name": "Sygic travel",
+              "description": "Бесплатная автономная GPS-навигация и карта для Android с аудиторией более 3 миллионов пользователей.",
+              "icon": "gps_navi_be_on_road",
+              "image": "https://assets.rocketdata.io/media/cache/26/42/2642bb3196b06b74685ff13a12bd9ff8.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/76/5f/765f3ee54569a25edc421a69542ac13e.png",
+              "traffic": 50000000,
+              "weight": -91
+            },
+            {
+              "id": 56,
+              "name": "Maps.me",
+              "description": "Maps.me - популярное мобильное приложение - картографический сервис, использующий открытые данные. Аудитория сервиса - более 70 миллионов пользователей.",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/c4/e9/c4e9082a3931d1afc643223ab0554fb7.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/f5/3b/f53bbe8ce0b71477a202bd40ac65e750.png",
+              "traffic": 70000000,
+              "weight": -181
+            },
+            {
+              "id": 57,
+              "name": "Osmand",
+              "description": "Osmand - популярное приложение GPS навигации и карт,  с  более чем 5 миллионной аудиторией пользователей.",
+              "icon": "osmand",
+              "image": "https://assets.rocketdata.io/media/cache/b4/38/b438ccd640bcd8aae62654a52ff123f6.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/99/60/99607b4476c8fb21532e02ec1943c4f9.png",
+              "traffic": 5000000,
+              "weight": -95
+            }
+          ],
+          "result": null
+        },
+        {
+          "status": "completed",
+          "catalog": {
+            "id": 30,
+            "name": "TomTom",
+            "description": "Tomtom -  одна из крупнейших навигационных систем в мире, карты которой покрывают более 135 стран и 4 миллиарда человек.",
+            "icon": "",
+            "image": "https://assets.rocketdata.io/media/cache/32/6a/326a053e74b27f127073e2780eff6f3d.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/45/64/456495cc7aca4ccc54641928fa0791c7.png",
+            "traffic": 0,
+            "weight": -94
+          },
+          "chained": [],
+          "result": {
+            "address": "Новосибирск, Вокзальная Магистраль, 1",
+            "name": "Магнит",
+            "phones": [
+              "+(7)-(800)-2009002"
+            ],
+            "working_hours": null,
+            "website": "https://magnit.ru",
+            "rating": null,
+            "reviews": null,
+            "errors": [],
+            "url": "https://mydrive.tomtom.com/ru_ru/#mode=search+viewport=55.03506,82.90168,17.29,0,-0+search=%7B%22input%22:%22Магнит%22,%22coords%22:[55.03506,82.90168]%7D+ver=3"
+          }
+        },
+        {
+          "status": "error",
+          "catalog": {
+            "id": 34,
+            "name": "HERE maps",
+            "description": "HERE maps- высокоточные карты, которые используются на 1 миллиарде устройств по всему миру, в том числе в навигационных устройствах автомобилей.",
+            "icon": "here",
+            "image": "https://assets.rocketdata.io/media/cache/09/44/0944fcc550871e77af76554ad08613cc.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/a0/74/a074bbfde48de9d4296465f582565e36.png",
+            "traffic": 1000000000,
+            "weight": -185
+          },
+          "chained": [
+            {
+              "id": 48,
+              "name": "Garmin",
+              "description": "Garmin - один из ведущих в мире производителей носимых устройств и карт. За  время существования компании выпущено более 173 миллионов устройств.",
+              "icon": "garmin",
+              "image": "https://assets.rocketdata.io/media/cache/f3/d8/f3d857085da5dba55b3348f7e19d4966.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/dd/0a/dd0a78d4459c0211dec642d275bed1ba.png",
+              "traffic": 173000000,
+              "weight": -184
+            }
+          ],
+          "result": null
+        },
+        {
+          "status": "completed",
+          "catalog": {
+            "id": 94,
+            "name": "Gett Taxi",
+            "description": "",
+            "icon": "",
+            "image": "https://assets.rocketdata.io/media/cache/b5/43/b543eb296aeb4eac85e7b842fcb8e799.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/98/fe/98fe4053beb06ab71444643687a4a8c3.png",
+            "traffic": 0,
+            "weight": 0
+          },
+          "chained": [],
+          "result": null
+        },
+        {
+          "status": "error",
+          "catalog": {
+            "id": 98,
+            "name": "Google maps",
+            "description": "",
+            "icon": "",
+            "image": "https://assets.rocketdata.io/media/cache/1f/fc/1ffc06a09a6a1b64c261bddcb47c7cb7.png",
+            "image_100": "https://assets.rocketdata.io/media/cache/1b/0b/1b0b2868a18efdb924f81305249cc21d.png",
+            "traffic": 0,
+            "weight": 0
+          },
+          "chained": [
+            {
+              "id": 103,
+              "name": "Google Assistant",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/93/18/9318fadf6c5255f496664772a18c09eb.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/18/28/1828cb53c0c93b8a60cbaab6f87c89b2.png",
+              "traffic": 0,
+              "weight": 0
+            },
+            {
+              "id": 104,
+              "name": "Waze",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/87/90/87906a60fcacdbb51a743b13ae4c6672.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/32/e8/32e8b7472210e4215f9d48169c102fd3.png",
+              "traffic": 0,
+              "weight": 0
+            },
+            {
+              "id": 105,
+              "name": "Wheely",
+              "description": "",
+              "icon": "",
+              "image": "https://assets.rocketdata.io/media/cache/a5/20/a5205c421070b7119e43722206e9f67a.png",
+              "image_100": "https://assets.rocketdata.io/media/cache/f7/78/f77878415ba3d4ff4490bb454bf0c7a5.png",
+              "traffic": 0,
+              "weight": 0
+            }
+          ],
+          "result": null
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
