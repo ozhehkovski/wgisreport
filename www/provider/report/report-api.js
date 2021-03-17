@@ -11,7 +11,6 @@ export async function fetchReport(getReportBody: GetReportBodyType): Promise<Rep
             headers: {
                 'Content-Type': 'application/json',
                 // TODO: separate authorization token
-                Authorization: 'Token 69a5d364294d452165b29805115a8b3a59e84314',
             },
             body: JSON.stringify(getReportBody),
         });
