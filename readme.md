@@ -6,6 +6,10 @@
 2. go to project's directory
 3. run `npm i`
 
+## API Installation&RUN
+
+1. Install JSON Server run: npm install -g json-server
+2. Start JSON Server run: json-server --watch db.json
 
 ## Dev mode
 

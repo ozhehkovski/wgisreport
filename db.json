@@ -1,267 +1,166 @@
 {
   "reports": [
     {
-      "uuid": "2dbde50f-0804-4f94-8c0a-28dec3f10476",
-      "company_name": "Магнит",
-      "country_code": "ru",
-      "company_size": null,
-      "address": "Новосибирск, Вокзальная магистраль, 1",
-      "created": "2020-12-21T05:00:21.050603Z",
-      "phones": [
-        "8‒800‒200‒90‒02"
-      ],
-      "working_hours": {},
-      "website": "http://magnit.ru",
-      "catalogs": [
-        {
-          "status": "completed",
-          "catalog": {
-            "id": 2,
-            "name": "2gis",
-            "description": "2gis - популярный в России справочник компаний, известный своей точностью данных. Аудитория сервиса превышает 44 миллиона пользователей в месяц.",
-            "icon": "",
-            "image": "https://assets.rocketdata.io/media/cache/b4/cb/b4cb5e6f295c09bd3d987e48d5407d52.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/fc/ab/fcab83de34b71a85e16dd655391345bd.png",
-            "traffic": 44000000,
-            "weight": -194
+      "name": "Будь Здоров!",
+      "id": "bf92023e-6935-4596-9471-3d48539f828c",
+      "show_ratings": true,
+      "show_reviews": true,
+      "reports": {
+        "invalid": 132,
+        "valid": 198,
+        "not_found": 246,
+        "unsupported_region": 23,
+        "count": 599
+      },
+      "reviews": {
+        "rating": 3.9,
+        "count": 1446,
+        "avg_rating": 4,
+        "count_sources": 5,
+        "count_without_text": 5,
+        "sample_reviews": [
+          {
+            "date": "2021-02-01",
+            "text": "Очень уютное и вкусное место, порции просто огромные, по разумной цене. Всем рекомендую. Обслуживание, кстати, тоже не хромает, лучше чем во многих \"пафосных\" заведениях. Так держать ребята. Первый раз была, когда только открылись, посчастливилось попробовать осетинский пирог приготовленный хозяином, все на моих глазах, никаких полуфабрикатов. Вот прошло уже много лет и опять заглянула, никакого разочарования, буду заходить.",
+            "source": "Yandex",
+            "link": "https://yandex.by/maps/org/dom_papochki/1314389670/reviews/?",
+            "rating": 3
           },
-          "chained": [
-            {
-              "id": 52,
-              "name": "Flamp.ru",
-              "description": "Flamp. ru -  онлайн- сервис с отзывами о компаниях и организациях, с ежемесячной аудиторией более 5.5 миллионов пользователей.",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/20/83/208354c1a42e649babdae97f766c0f6d.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/c7/67/c76778570f1a881f65524f0df7f3c535.png",
-              "traffic": 5500000,
-              "weight": -100
-            },
-            {
-              "id": 81,
-              "name": "Rambler организации",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/76/d9/76d93bb61118c7ec624d5ff3da68833b.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/e8/df/e8df6f8ae566f784bfac04a2898a8035.png",
-              "traffic": 0,
-              "weight": 0
-            }
-          ],
-          "result": {
-            "address": "Вокзальная магистраль, 1",
-            "name": "Магнит",
-            "phones": [
-              "+7 800 200-90-02"
-            ],
-            "working_hours": {
-              "1": [
-                "00:00-24:00"
-              ],
-              "2": [
-                "00:00-24:00"
-              ],
-              "3": [
-                "00:00-24:00"
-              ],
-              "4": [
-                "00:00-24:00"
-              ],
-              "5": [
-                "00:00-24:00"
-              ],
-              "6": [
-                "00:00-24:00"
-              ],
-              "7": [
-                "00:00-24:00"
-              ]
-            },
-            "website": "http://magnit.ru",
-            "rating": 2.5,
-            "reviews": 29,
-            "errors": [],
-            "url": "https://2gis.ru/firm/70000001036197235"
+          {
+            "date": "2021-02-01",
+            "text": "Visiting Minsk for work. Stayed at the Doubletree for two weeks. Good, not great. The gym is small but functional. Glad they have one.  The room is a decent size and the curtains are great at blocking it the light which I like. The mini fridge is well stocked but the prices are crazy given that all the items are available downstairs for half the price. Only instant coffee but that seems to be the way to go over here so that is okay. But I asked for more one day and they didn't give me any more. I liked the bathroom and the towels and bathrobes. Heated mirror and large shower are nice to haves. The location is good. Attached to a mall and close to a bunch of tourist attractions, shopping and some good local food joints.",
+            "source": "Google",
+            "link": "https://www.google.com/maps/place/DoubleTree+by+Hilton+Hotel+Minsk/@53.9048227,27.5397791,14.23z/data=!4m20!1m9!2m8!1sHotels!3m6!1sHotels!2sMinsk,+Belarus!3s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!4m2!1d27.558972!2d53.9006011!3m9!1s0x46dbcf92d24cbde7:0x2ab9645fc2bbbb03!5m2!4m1!1i2!8m2!3d53.9081389!4d27.5481081!9m1!1b1",
+            "rating": 2
           }
-        },
+        ]
+      },
+      "lost audience": 100000,
+      "listing_health": {
+        "address": true,
+        "coordinates": false,
+        "schedule": true,
+        "phone_number": true,
+        "social_network": false,
+        "categories": true,
+        "rating": false,
+        "synchronization": true,
+        "name": false,
+        "website": true
+      },
+      "competitor": {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXeu3hNLHvVZnOhzx4c56ohrDQ6bSfQe6QCg&usqp=CAU",
+        "rating": 4.8,
+        "name": "Дайкон-суши",
+        "category": "ресторан",
+        "logo": "https://kuramen.ru/wp-content/uploads/2020/06/KU_Logo_1_Black.png",
+        "price": [
+          {
+            "name": "Салат в ореховом соусе",
+            "price": "124"
+          },
+          {
+            "name": "Сырный",
+            "price": "200"
+          },
+          {
+            "name": "Цезарь",
+            "price": "200"
+          }
+        ],
+        "count_reviews": 45,
+        "photo_list": [
+          "https://img.championat.com/s/735x490/news/big/w/q/pochemu-sushi-vredny-dlja-figury_1590677088981164064.jpg",
+          "https://pickledplum.com/wp-content/uploads/2020/05/maki-sushi-1.jpg",
+          "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/175796.jpg",
+          "https://cdn2.lamag.com/wp-content/uploads/sites/6/2020/11/sushi-Echigo-Sushi-Omakase.jpg"
+        ],
+        "address": "Большая, 134/1",
+        "address_city": "Ленинский район, Новосибирск, 630032",
+        "schedule": "Сегодня с 08:00 до 20:00",
+        "open_status": "Открыто",
+        "phones": [
+          "+7 954 224 34 45",
+          "+7 954 224 34 46"
+        ],
+        "website": "www.daijon.ru",
+        "social_network": [
+          "https://www.instagram.com/daykon_sushi_nsk/",
+          "https://vk.com/club80425716"
+        ]
+      },
+      "error_statistic": {
+        "name": 0,
+        "phones": 105,
+        "working_hours": 58,
+        "website": 0,
+        "formatted_address": 51
+      },
+      "providers": [
         {
-          "status": "completed",
-          "catalog": {
+          "provider": {
             "id": 11,
             "name": "Google My Business",
             "description": "Google My Business –  сервис компании Google, который объединяет сервисы, предоставляющие возможность размещать всю необходимую информацию о вашей компании и контролировать ее.  Наиболее важное преимущество – расширенная выдача карточки компании, при брендовом запросе, что помогает продвигать компанию в результатах поиска.",
-            "icon": "google",
-            "image": "https://assets.rocketdata.io/media/cache/3c/72/3c72017946e9476c631a7fa1c0054f44.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/f7/a5/f7a57ae17adcbcfb654aa1dfa56850d0.png",
-            "traffic": 0,
+            "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/10.png",
             "weight": -185
           },
           "chained": [
             {
-              "id": 94,
-              "name": "Gett Taxi",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/b5/43/b543eb296aeb4eac85e7b842fcb8e799.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/98/fe/98fe4053beb06ab71444643687a4a8c3.png",
-              "traffic": 0,
-              "weight": 0
-            },
-            {
               "id": 82,
               "name": "Google Assistant",
               "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/a1/b0/a1b0542195a305849842582ad81b2038.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/93/1e/931e691d6025ff21272e1247cc2caba2.png",
-              "traffic": 0,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/11.png",
               "weight": 0
             },
             {
               "id": 60,
               "name": "Google maps",
               "description": "Google maps -   самые популярные карты для мобильных телефонов в мире. Количество скачиваний только приложения в Play Market - более 1 миллиарда.",
-              "icon": "google_maps",
-              "image": "https://assets.rocketdata.io/media/cache/96/69/9669a737a1a87697ea11e3cd3d7e0a86.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/20/4d/204d66f28f4e4b9c221edcc6b098f2f1.png",
-              "traffic": 1000000000,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/12_L3jXQzV.png",
               "weight": -200
             },
             {
               "id": 47,
               "name": "Waze",
               "description": "Waze - навигационное приложение для мобильных устройств, позволяющее отслеживать ситуацию на дорогах в режиме реального времени, прокладывать оптимальные маршруты, узнавать о расположении компаний. Аудитория сервиса превышает 100 миллионов пользователей.",
-              "icon": "waze",
-              "image": "https://assets.rocketdata.io/media/cache/b8/e4/b8e46db7c9a9808dda5daae91fcf2fae.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/bc/3e/bc3ee7d0790c69212cd224395330d627.png",
-              "traffic": 100000000,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/22.png",
               "weight": -182
-            },
-            {
-              "id": 84,
-              "name": "Wheely",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/78/59/7859c71269f75226221a618f2c7c9005.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/f3/9a/f39a679086c1da4efc5c1c58f64db78a.png",
-              "traffic": 0,
-              "weight": 0
             }
           ],
-          "result": {
-            "address": "ул. Челюскинцев, 14/1, Новосибирск",
-            "name": "Магнит Косметик",
-            "phones": [
-              "+7 800 200-90-02"
-            ],
-            "working_hours": {
-              "1": [
-                "10:00-21:30"
-              ],
-              "2": [
-                "10:00-21:30"
-              ],
-              "3": [
-                "10:00-21:30"
-              ],
-              "4": [
-                "10:00-21:30"
-              ],
-              "5": [
-                "10:00-21:30"
-              ],
-              "6": [
-                "10:00-21:30"
-              ],
-              "7": [
-                "10:00-21:30"
-              ]
-            },
-            "website": "http://magnit-info.ru",
-            "rating": 3.9,
-            "reviews": 354,
-            "errors": [
-              "formatted_address",
-              "website"
-            ],
-            "url": "https://maps.google.com/?cid=3033961508445580938"
+          "statistic": {
+            "incorrect": 41,
+            "correct": 6,
+            "not_found": 53,
+            "unsupported_region_count": 0,
+            "reviews_count": 86,
+            "rating": 3
           }
         },
         {
-          "status": "error",
-          "catalog": {
-            "id": 12,
-            "name": "Yandex Карты",
-            "description": "Яндекс.Карты — поисково-информационный картографический сервис, который очень популярен в России. Аудитория сервиса составляет более 46 миллионов пользователей.",
-            "icon": "yandex_maps",
-            "image": "https://assets.rocketdata.io/media/cache/f8/2a/f82a4dc298f2b7c2e00c66893d07a7ff.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/cb/05/cb05cd766a0dff5dbf4f5cb23b5bbc70.png",
-            "traffic": 46000000,
-            "weight": -199
+          "provider": {
+            "id": 34,
+            "name": "HERE maps",
+            "description": "HERE maps- высокоточные карты, которые используются на 1 миллиарде устройств по всему миру, в том числе в навигационных устройствах автомобилей.",
+            "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/14.png",
+            "weight": -185
           },
-          "chained": [
-            {
-              "id": 85,
-              "name": "Алиса",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/b0/7d/b07dcaab8d416cf00448207d12184123.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/e2/f3/e2f355b3791d084af4ff6ff59a17915b.png",
-              "traffic": 0,
-              "weight": 0
-            },
-            {
-              "id": 71,
-              "name": "Uber",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/ce/07/ce07e4e6f8f8e4e67dbc56c91a57fbce.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/31/14/3114d7542c82dd840e804a47d96c4411.png",
-              "traffic": 75000000,
-              "weight": -93
-            },
-            {
-              "id": 86,
-              "name": "Ситимобил",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/3d/04/3d046e44dafaa81349ae67c97b9e36e6.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/21/d7/21d7d27d4d19dcb44a190e94123196fa.png",
-              "traffic": 0,
-              "weight": 0
-            },
-            {
-              "id": 53,
-              "name": "Яндекс Навигатор",
-              "description": "Яндекс.Навигатор - один из самых популярных приложений для телефонов в России. Им пользуется более 50 миллионов пользователей.",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/1f/25/1f25ab02a55865c389496000a3f6442c.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/8b/c5/8bc55839eaad99ddc26406fca7c348a7.png",
-              "traffic": 50000000,
-              "weight": -193
-            },
-            {
-              "id": 80,
-              "name": "Яндекс Go",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/7d/09/7d09181dc68e4688b8171f1508bf25e0.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/c3/0d/c30d6ed5e737e549d2f945dd2c60bd62.png",
-              "traffic": 0,
-              "weight": 0
-            }
-          ],
-          "result": null
+          "chained": [],
+          "statistic": {
+            "incorrect": 8,
+            "correct": 11,
+            "not_found": 81,
+            "unsupported_region_count": 0,
+            "reviews_count": 0,
+            "rating": 0
+          }
         },
         {
-          "status": "completed",
-          "catalog": {
+          "provider": {
             "id": 26,
             "name": "OpenStreetMap",
             "description": "OpenStreetMap  - открытые карты, которыми пользуются более ста миллионов пользователей.  Сервис предоставляет  картографические данные для тысяч сайтов, мобильных приложений и устройств.",
-            "icon": "",
-            "image": "https://assets.rocketdata.io/media/cache/93/41/9341f2ffe795d3807cf7617a35df252c.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/37/8a/378aa1e916f041e15a52ffe6c8348f9c.png",
-            "traffic": 100000000,
+            "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/18.png",
             "weight": -186
           },
           "chained": [
@@ -269,158 +168,743 @@
               "id": 59,
               "name": "CityMaps2Go",
               "description": "Сitymaps2go -  популярное оффлайн тревел-приложение для телефона, с аудиторией более 1 миллиона пользователей.",
-              "icon": "citymaps2go",
-              "image": "https://assets.rocketdata.io/media/cache/c6/74/c6741b1567a54411b3c8377ea8a74206.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/24/ec/24ecad826ef0c94db511b7faa6a13b68.png",
-              "traffic": 1000000,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/citymaps2go.png",
               "weight": -90
             },
             {
               "id": 58,
               "name": "Sygic travel",
               "description": "Бесплатная автономная GPS-навигация и карта для Android с аудиторией более 3 миллионов пользователей.",
-              "icon": "gps_navi_be_on_road",
-              "image": "https://assets.rocketdata.io/media/cache/26/42/2642bb3196b06b74685ff13a12bd9ff8.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/76/5f/765f3ee54569a25edc421a69542ac13e.png",
-              "traffic": 50000000,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/29.png",
               "weight": -91
             },
             {
               "id": 56,
               "name": "Maps.me",
               "description": "Maps.me - популярное мобильное приложение - картографический сервис, использующий открытые данные. Аудитория сервиса - более 70 миллионов пользователей.",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/c4/e9/c4e9082a3931d1afc643223ab0554fb7.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/f5/3b/f53bbe8ce0b71477a202bd40ac65e750.png",
-              "traffic": 70000000,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/2_BPDBQCL.png",
               "weight": -181
             },
             {
               "id": 57,
               "name": "Osmand",
               "description": "Osmand - популярное приложение GPS навигации и карт,  с  более чем 5 миллионной аудиторией пользователей.",
-              "icon": "osmand",
-              "image": "https://assets.rocketdata.io/media/cache/b4/38/b438ccd640bcd8aae62654a52ff123f6.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/99/60/99607b4476c8fb21532e02ec1943c4f9.png",
-              "traffic": 5000000,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/osmand.png",
               "weight": -95
             }
           ],
-          "result": null
-        },
-        {
-          "status": "completed",
-          "catalog": {
-            "id": 30,
-            "name": "TomTom",
-            "description": "Tomtom -  одна из крупнейших навигационных систем в мире, карты которой покрывают более 135 стран и 4 миллиарда человек.",
-            "icon": "",
-            "image": "https://assets.rocketdata.io/media/cache/32/6a/326a053e74b27f127073e2780eff6f3d.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/45/64/456495cc7aca4ccc54641928fa0791c7.png",
-            "traffic": 0,
-            "weight": -94
-          },
-          "chained": [],
-          "result": {
-            "address": "Новосибирск, Вокзальная Магистраль, 1",
-            "name": "Магнит",
-            "phones": [
-              "+(7)-(800)-2009002"
-            ],
-            "working_hours": null,
-            "website": "https://magnit.ru",
-            "rating": null,
-            "reviews": null,
-            "errors": [],
-            "url": "https://mydrive.tomtom.com/ru_ru/#mode=search+viewport=55.03506,82.90168,17.29,0,-0+search=%7B%22input%22:%22Магнит%22,%22coords%22:[55.03506,82.90168]%7D+ver=3"
+          "statistic": {
+            "incorrect": 23,
+            "correct": 0,
+            "not_found": 77,
+            "unsupported_region_count": 0,
+            "reviews_count": 0,
+            "rating": 0
           }
         },
         {
-          "status": "error",
-          "catalog": {
-            "id": 34,
-            "name": "HERE maps",
-            "description": "HERE maps- высокоточные карты, которые используются на 1 миллиарде устройств по всему миру, в том числе в навигационных устройствах автомобилей.",
-            "icon": "here",
-            "image": "https://assets.rocketdata.io/media/cache/09/44/0944fcc550871e77af76554ad08613cc.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/a0/74/a074bbfde48de9d4296465f582565e36.png",
-            "traffic": 1000000000,
-            "weight": -185
-          },
-          "chained": [
-            {
-              "id": 48,
-              "name": "Garmin",
-              "description": "Garmin - один из ведущих в мире производителей носимых устройств и карт. За  время существования компании выпущено более 173 миллионов устройств.",
-              "icon": "garmin",
-              "image": "https://assets.rocketdata.io/media/cache/f3/d8/f3d857085da5dba55b3348f7e19d4966.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/dd/0a/dd0a78d4459c0211dec642d275bed1ba.png",
-              "traffic": 173000000,
-              "weight": -184
-            }
-          ],
-          "result": null
-        },
-        {
-          "status": "completed",
-          "catalog": {
-            "id": 94,
-            "name": "Gett Taxi",
-            "description": "",
-            "icon": "",
-            "image": "https://assets.rocketdata.io/media/cache/b5/43/b543eb296aeb4eac85e7b842fcb8e799.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/98/fe/98fe4053beb06ab71444643687a4a8c3.png",
-            "traffic": 0,
-            "weight": 0
+          "provider": {
+            "id": 2,
+            "name": "2gis",
+            "description": "2gis - популярный в России справочник компаний, известный своей точностью данных. Аудитория сервиса превышает 44 миллиона пользователей в месяц.",
+            "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/4.png",
+            "weight": -194
           },
           "chained": [],
-          "result": null
+          "statistic": {
+            "incorrect": 28,
+            "correct": 44,
+            "not_found": 5,
+            "unsupported_region_count": 23,
+            "reviews_count": 20,
+            "rating": 4
+          }
         },
         {
-          "status": "error",
-          "catalog": {
-            "id": 98,
-            "name": "Google maps",
-            "description": "",
-            "icon": "",
-            "image": "https://assets.rocketdata.io/media/cache/1f/fc/1ffc06a09a6a1b64c261bddcb47c7cb7.png",
-            "image_100": "https://assets.rocketdata.io/media/cache/1b/0b/1b0b2868a18efdb924f81305249cc21d.png",
-            "traffic": 0,
-            "weight": 0
+          "provider": {
+            "id": 12,
+            "name": "Yandex Карты",
+            "description": "Яндекс.Карты — поисково-информационный картографический сервис, который очень популярен в России. Аудитория сервиса составляет более 46 миллионов пользователей.",
+            "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/25.png",
+            "weight": -199
           },
           "chained": [
             {
-              "id": 103,
-              "name": "Google Assistant",
+              "id": 71,
+              "name": "Uber",
               "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/93/18/9318fadf6c5255f496664772a18c09eb.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/18/28/1828cb53c0c93b8a60cbaab6f87c89b2.png",
-              "traffic": 0,
-              "weight": 0
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/21.png",
+              "weight": -93
             },
             {
-              "id": 104,
-              "name": "Waze",
-              "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/87/90/87906a60fcacdbb51a743b13ae4c6672.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/32/e8/32e8b7472210e4215f9d48169c102fd3.png",
-              "traffic": 0,
-              "weight": 0
+              "id": 53,
+              "name": "Яндекс Навигатор",
+              "description": "Яндекс.Навигатор - один из самых популярных приложений для телефонов в России. Им пользуется более 50 миллионов пользователей.",
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/1_GtCylHI.png",
+              "weight": -193
             },
             {
-              "id": 105,
-              "name": "Wheely",
+              "id": 80,
+              "name": "Яндекс Go",
               "description": "",
-              "icon": "",
-              "image": "https://assets.rocketdata.io/media/cache/a5/20/a5205c421070b7119e43722206e9f67a.png",
-              "image_100": "https://assets.rocketdata.io/media/cache/f7/78/f77878415ba3d4ff4490bb454bf0c7a5.png",
-              "traffic": 0,
+              "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/24_1.png",
               "weight": 0
             }
           ],
-          "result": null
+          "statistic": {
+            "incorrect": 9,
+            "correct": 90,
+            "not_found": 1,
+            "unsupported_region_count": 0,
+            "reviews_count": 1340,
+            "rating": 4.2
+          }
+        },
+        {
+          "provider": {
+            "id": 30,
+            "name": "TomTom",
+            "description": "Tomtom -  одна из крупнейших навигационных систем в мире, карты которой покрывают более 135 стран и 4 миллиарда человек.",
+            "logo": "https://assets.rocketdata.io/media/images/company/catalog/logo/20.png",
+            "weight": -94
+          },
+          "chained": [],
+          "statistic": {
+            "incorrect": 23,
+            "correct": 47,
+            "not_found": 29,
+            "unsupported_region_count": 0,
+            "reviews_count": 0,
+            "rating": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Не Будь Здоров!",
+      "id": "bf92023e-6935-4596-9471-3d48539f829c",
+      "show_ratings": true,
+      "show_reviews": true,
+      "reports": {
+        "invalid": 132,
+        "valid": 198,
+        "not_found": 246,
+        "unsupported_region": 23,
+        "count": 599
+      },
+      "reviews": {
+        "rating": 3.9,
+        "count": 1446,
+        "avg_rating": 4,
+        "count_sources": 5,
+        "count_without_text": 5,
+        "sample_reviews": [
+          {
+            "date": "2021-02-01",
+            "text": "Очень уютное и вкусное место, порции просто огромные, по разумной цене. Всем рекомендую. Обслуживание, кстати, тоже не хромает, лучше чем во многих \"пафосных\" заведениях. Так держать ребята. Первый раз была, когда только открылись, посчастливилось попробовать осетинский пирог приготовленный хозяином, все на моих глазах, никаких полуфабрикатов. Вот прошло уже много лет и опять заглянула, никакого разочарования, буду заходить.",
+            "source": "Yandex",
+            "link": "https://yandex.by/maps/org/dom_papochki/1314389670/reviews/?",
+            "rating": 3
+          },
+          {
+            "date": "2021-02-01",
+            "text": "Visiting Minsk for work. Stayed at the Doubletree for two weeks. Good, not great. The gym is small but functional. Glad they have one.  The room is a decent size and the curtains are great at blocking it the light which I like. The mini fridge is well stocked but the prices are crazy given that all the items are available downstairs for half the price. Only instant coffee but that seems to be the way to go over here so that is okay. But I asked for more one day and they didn't give me any more. I liked the bathroom and the towels and bathrobes. Heated mirror and large shower are nice to haves. The location is good. Attached to a mall and close to a bunch of tourist attractions, shopping and some good local food joints.",
+            "source": "Google",
+            "link": "https://www.google.com/maps/place/DoubleTree+by+Hilton+Hotel+Minsk/@53.9048227,27.5397791,14.23z/data=!4m20!1m9!2m8!1sHotels!3m6!1sHotels!2sMinsk,+Belarus!3s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!4m2!1d27.558972!2d53.9006011!3m9!1s0x46dbcf92d24cbde7:0x2ab9645fc2bbbb03!5m2!4m1!1i2!8m2!3d53.9081389!4d27.5481081!9m1!1b1",
+            "rating": 2
+          }
+        ]
+      },
+      "lost audience": 100000,
+      "listing_health": {
+        "address": true,
+        "coordinates": false,
+        "schedule": true,
+        "phone_number": true,
+        "social_network": false,
+        "categories": true,
+        "rating": false,
+        "synchronization": true,
+        "name": false,
+        "website": true
+      },
+      "competitor": {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXeu3hNLHvVZnOhzx4c56ohrDQ6bSfQe6QCg&usqp=CAU",
+        "rating": 4.8,
+        "name": "Дайкон-суши",
+        "category": "ресторан",
+        "logo": "https://kuramen.ru/wp-content/uploads/2020/06/KU_Logo_1_Black.png",
+        "price": [
+          {
+            "name": "Салат в ореховом соусе",
+            "price": "124"
+          },
+          {
+            "name": "Сырный",
+            "price": "200"
+          },
+          {
+            "name": "Цезарь",
+            "price": "200"
+          }
+        ],
+        "count_reviews": 45,
+        "photo_list": [
+          "https://img.championat.com/s/735x490/news/big/w/q/pochemu-sushi-vredny-dlja-figury_1590677088981164064.jpg",
+          "https://pickledplum.com/wp-content/uploads/2020/05/maki-sushi-1.jpg",
+          "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/175796.jpg",
+          "https://cdn2.lamag.com/wp-content/uploads/sites/6/2020/11/sushi-Echigo-Sushi-Omakase.jpg"
+        ],
+        "address": "Большая, 134/1",
+        "address_city": "Ленинский район, Новосибирск, 630032",
+        "schedule": "Сегодня с 08:00 до 20:00",
+        "open_status": "Открыто",
+        "phones": [
+          "+7 954 224 34 45",
+          "+7 954 224 34 46"
+        ],
+        "website": "www.daijon.ru",
+        "social_network": [
+          "https://www.instagram.com/daykon_sushi_nsk/",
+          "https://vk.com/club80425716"
+        ]
+      },
+      "error_statistic": {
+        "name": 0,
+        "phones": 105,
+        "working_hours": 58,
+        "website": 0,
+        "formatted_address": 51
+      }
+    }
+  ],
+  "providers":[
+    {
+      "count": 100,
+      "page": 1,
+      "id": 11,
+      "pages": 10,
+      "reportId": "bf92023e-6935-4596-9471-3d48539f828c",
+      "page_size": 10,
+      "next": "/v1/brand_report/bf92023e-6935-4596-9471-3d48539f828c/11/?page=2",
+      "previous": null,
+      "results": [
+        {
+          "id": 4807289,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "09:00-21:00"
+              ],
+              "2": [
+                "09:00-21:00"
+              ],
+              "3": [
+                "09:00-21:00"
+              ],
+              "4": [
+                "09:00-21:00"
+              ],
+              "5": [
+                "09:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Наро-Фоминск, улица Новикова, 47",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "",
+            "working_hours": null,
+            "adds": "",
+            "phones": []
+          },
+          "url": "",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "not found"
+          ]
+        },
+        {
+          "id": 4807295,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "09:00-21:00"
+              ],
+              "2": [
+                "09:00-21:00"
+              ],
+              "3": [
+                "09:00-21:00"
+              ],
+              "4": [
+                "09:00-21:00"
+              ],
+              "5": [
+                "09:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Истра, 9 Гвардейской Дивизии, 53",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "",
+            "working_hours": null,
+            "adds": "",
+            "phones": []
+          },
+          "url": "",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "not found"
+          ]
+        },
+        {
+          "id": 4807301,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "09:00-21:00"
+              ],
+              "2": [
+                "09:00-21:00"
+              ],
+              "3": [
+                "09:00-21:00"
+              ],
+              "4": [
+                "09:00-21:00"
+              ],
+              "5": [
+                "09:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Электросталь, Победы, 11 к1",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 384 403-00-00",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "Будь Здоров!",
+            "working_hours": {},
+            "adds": "Электросталь, Победы, 11 к1",
+            "phones": [
+              ""
+            ]
+          },
+          "url": "https://maps.google.com/?cid=16693445871569731377",
+          "reviews": 3,
+          "rating": 2.7,
+          "errors": [
+            "phones",
+            "working_hours"
+          ]
+        },
+        {
+          "id": 4807305,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "08:00-21:00"
+              ],
+              "2": [
+                "08:00-21:00"
+              ],
+              "3": [
+                "08:00-21:00"
+              ],
+              "4": [
+                "08:00-21:00"
+              ],
+              "5": [
+                "08:00-21:00"
+              ],
+              "6": [
+                "08:00-20:00"
+              ],
+              "7": [
+                "08:00-20:00"
+              ]
+            },
+            "adds": "Электрогорск, Чкалова, 12",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "",
+            "working_hours": null,
+            "adds": "",
+            "phones": []
+          },
+          "url": "",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "not found"
+          ]
+        },
+        {
+          "id": 4807308,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "09:00-21:00"
+              ],
+              "2": [
+                "09:00-21:00"
+              ],
+              "3": [
+                "09:00-21:00"
+              ],
+              "4": [
+                "09:00-21:00"
+              ],
+              "5": [
+                "09:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Щёлково, Талсинская, 6Б",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "Будь здоров",
+            "working_hours": {},
+            "adds": "Щёлково",
+            "phones": [
+              ""
+            ]
+          },
+          "url": "https://maps.google.com/?cid=16115970143458038945",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "phones",
+            "working_hours",
+            "formatted_address"
+          ]
+        },
+        {
+          "id": 4807311,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "08:00-21:00"
+              ],
+              "2": [
+                "08:00-21:00"
+              ],
+              "3": [
+                "08:00-21:00"
+              ],
+              "4": [
+                "08:00-21:00"
+              ],
+              "5": [
+                "08:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Щёлково, Комсомольская, 3",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "Будь Здоров!",
+            "working_hours": {
+              "1": [
+                "08:00-21:00"
+              ],
+              "2": [
+                "08:00-21:00"
+              ],
+              "3": [
+                "08:00-21:00"
+              ],
+              "4": [
+                "08:00-21:00"
+              ],
+              "5": [
+                "08:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Щёлково, Комсомольская, 3",
+            "phones": [
+              "+7 495 231-16-97"
+            ]
+          },
+          "url": "https://maps.google.com/?cid=13430525783497014491",
+          "reviews": 1,
+          "rating": 5,
+          "errors": []
+        },
+        {
+          "id": 4807314,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "08:00-22:00"
+              ],
+              "2": [
+                "08:00-22:00"
+              ],
+              "3": [
+                "08:00-22:00"
+              ],
+              "4": [
+                "08:00-22:00"
+              ],
+              "5": [
+                "08:00-22:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Щёлково, проспект 60 лет Октября, 2в",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "",
+            "working_hours": null,
+            "adds": "",
+            "phones": []
+          },
+          "url": "",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "not found"
+          ]
+        },
+        {
+          "id": 4807317,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "08:00-21:00"
+              ],
+              "2": [
+                "08:00-21:00"
+              ],
+              "3": [
+                "08:00-21:00"
+              ],
+              "4": [
+                "08:00-21:00"
+              ],
+              "5": [
+                "08:00-21:00"
+              ],
+              "6": [
+                "09:00-21:00"
+              ],
+              "7": [
+                "09:00-21:00"
+              ]
+            },
+            "adds": "Щёлково, проспект 60 лет Октября, 10",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "",
+            "working_hours": null,
+            "adds": "",
+            "phones": []
+          },
+          "url": "",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "not found"
+          ]
+        },
+        {
+          "id": 4807320,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "08:00-20:00"
+              ],
+              "2": [
+                "08:00-20:00"
+              ],
+              "3": [
+                "08:00-20:00"
+              ],
+              "4": [
+                "08:00-20:00"
+              ],
+              "5": [
+                "08:00-20:00"
+              ],
+              "6": [
+                "08:00-20:00"
+              ],
+              "7": [
+                "08:00-20:00"
+              ]
+            },
+            "adds": "Черноголовка, Лесная, 9",
+            "phones": [
+              "+7 495 788-70-30",
+              "+7 496 524-90-01",
+              "+7 383 778-51-00"
+            ]
+          },
+          "new": {
+            "name": "Будь Здоров!",
+            "working_hours": {
+              "1": [
+                "08:00-19:00"
+              ],
+              "2": [
+                "08:00-19:00"
+              ],
+              "3": [
+                "08:00-19:00"
+              ],
+              "4": [
+                "08:00-19:00"
+              ],
+              "5": [
+                "08:00-19:00"
+              ],
+              "6": [
+                "08:00-17:00"
+              ],
+              "7": [
+                "08:00-15:00"
+              ]
+            },
+            "adds": "Черноголовка, Лесная, 9",
+            "phones": [
+              ""
+            ]
+          },
+          "url": "https://maps.google.com/?cid=7930486855593763949",
+          "reviews": 2,
+          "rating": 3,
+          "errors": [
+            "phones",
+            "working_hours"
+          ]
+        },
+        {
+          "id": 4807328,
+          "origin": {
+            "name": "Будь Здоров",
+            "working_hours": {
+              "1": [
+                "08:00-21:00"
+              ],
+              "2": [
+                "08:00-21:00"
+              ],
+              "3": [
+                "08:00-21:00"
+              ],
+              "4": [
+                "08:00-21:00"
+              ],
+              "5": [
+                "08:00-21:00"
+              ],
+              "6": [
+                "09:00-20:00"
+              ],
+              "7": [
+                "09:00-20:00"
+              ]
+            },
+            "adds": "Черноголовка, Институтский проспект, 5г",
+            "phones": [
+              "+7 383 766-31-00",
+              "+7 495 788-70-30",
+              "+7 495 231-16-97"
+            ]
+          },
+          "new": {
+            "name": "",
+            "working_hours": null,
+            "adds": "",
+            "phones": []
+          },
+          "url": "",
+          "reviews": 0,
+          "rating": null,
+          "errors": [
+            "not found"
+          ]
         }
       ]
     }
